@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Calculator System
+        </h1>
+        <p>
+            Welcome
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>
+                Calculator
+            </h2>
+            <form id="calcForm" action="" method="get">
+                <label for="numero1">Ingrese el primer número: </label>
+                <input placeholder="0...9" type="text" name="numero1" id="num1">
+                <label for="numero2">Ingrese el segundo número: </label>
+                <input placeholder="0...9" type="text" name="numero2" id="num2">
+
+                <button id="add" type="submit">add</button>
+                <button id="res" type="submit">res</button>
+                <button id="mul" type="submit">mul</button>
+                <button id="div" type="submit">div</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>
+                Result
+            </h2>
+            <p id="results">El resultado es: 0</p>
+        </section>
+
+    </main>
+    
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
